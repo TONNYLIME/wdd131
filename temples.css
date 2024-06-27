@@ -24,15 +24,19 @@ nav {
 }
 
 /* small view navigation */
-#menu {
-	font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: #000;
- 	position: _________;
-	________;
-	________;
+header {
+	background-color: aqua;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.1);
+	margin-left: 20rem;
+	margin-right: 20rem;
+
 }
+
+
 
 #menu::before {
 	content: "☰";
@@ -48,6 +52,7 @@ nav {
 	list-style: none;
 	background-color: #333;
 	color: #fff;
+	
 }
 
 .navigation a {
@@ -63,14 +68,7 @@ nav {
 	font-weight: 700;
 }
 
-/* when the button is clicked - the open class is toggled (added/removed) */
-.open a {
-	display: block;
-}
 
-.active::before {
-	content: "📍";  /* just a wayfinding symbol for the user */
-}
 
 .stuff {
 	margin: .5rem;
@@ -82,7 +80,7 @@ nav {
 }
 
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+@media (min-width: 640px) {
 	h1 {
 		font-size: 2.5rem;
 		margin-left: 0;
@@ -95,7 +93,7 @@ nav {
 	}
 
 	#menu {
-		display: none; /* hide hamburger button */
+		display: block; /* hide hamburger button */
 	}
 
 	.navigation {
