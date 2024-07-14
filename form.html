@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weeko4/styles/form.css">
+    <script src="weeko4/scripts/form.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Product Review</h1>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+            <label >Product name
+                <select name="Product" id="Product" required disabled>
+                        <option value="" > Choose a Product ...</option>
+                </select>
+
+            </label>
+            </fieldset>
+            <fieldset>
+            <label> Overall Rating
+
+                <div class="stars">
+	            <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+	            <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+	            <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+	            <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+	            <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+
+            </label>
+            </fieldset>
+            <fieldset>
+            <label>Date of Installation
+                <label><input type="date" name="completion" required></label>
+
+            </label>
+            </fieldset>
+            <fieldset>
+                <div>Which feature did you find useful in product? <br> (check all that apply)</div>
+                <label> <input type="checkbox" name="" value="">Durability</label>
+                <label> <input type="checkbox" name="" value="">Ease of Use</label>
+                <label> <input type="checkbox" name="" value="">Performance</label>
+                <label> <input type="checkbox" name="" value="">Design</label>
+
+            </fieldset>
+            <fieldset>
+                <label>Written Review (optional)</label>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="">Your Name (Optional)</label>
+                <input type="text" name="your name">
+
+            </fieldset>
+            <input type="submit" value="Post Review">
+
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>🌹Tonny Lumwaji Lime🌹Kenya</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
