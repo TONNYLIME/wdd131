@@ -1,0 +1,45 @@
+
+body {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+header {
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.estimate {
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: yellow;
+    margin: 5rem;
+
+}
+footer{
+    background-color: pink;
+    text-align: center;
+
+}
+nav {
+    margin: 5rem;
+}
+a{
+    margin: 5rem;
+}
+img{
+    margin: 5rem;
+}
+footer{
+    max-width: 1000px;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-color: blue;
+    margin-top: 2rem;
+}

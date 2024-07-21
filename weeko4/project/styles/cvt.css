@@ -1,0 +1,60 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    display: grid;
+    
+}
+h1{
+    text-align: center;
+    color: #000;
+    margin: auto;
+}
+
+header {
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: auto;
+}
+nav {
+    margin: 5rem;
+}
+a{
+    margin: 5rem;
+}
+img{
+    margin: 5rem;
+}
+.auto {
+    display: grid;
+    max-width: 500px;
+    display: inline-table;
+    float: left;
+    margin-left: 5rem;
+
+}
+.cvt {
+    display: grid;
+    max-width: 300px;
+    grid-column: auto;
+    display: inline-table;
+	column-gap: 10rem;
+    float: right;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.learn{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+    
+}
+footer{
+    max-width: 1000px;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-color: blue;
+    margin-top: 2rem;
+}

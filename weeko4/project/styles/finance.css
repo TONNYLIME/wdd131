@@ -1,0 +1,159 @@
+.pricing_CardsFlex .pricing_CardContainer * {
+    font-family: system-ui;
+  }
+  body {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+header {
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: auto;
+}
+nav {
+    margin: 5rem;
+}
+a{
+    margin: 5rem;
+}
+img{
+    margin: 5rem;
+}
+  .pricing_CardsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .pricing_CardsFlex .pricing_Separator {
+    width: 95%;
+    border: none;
+    border-top: 1px solid #808080;
+  }
+  .pricing_CardsFlex .pricing_Banner {
+    font-size: 1rem;
+    background: #1d750c;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    display: none;
+    margin: 0;
+  }
+  .pricing_CardsFlex .pricing_CardContainer {
+    max-width: 300px;
+    min-width: 300px;
+    border: 1px solid #616161;
+    border-radius: 10px;
+    background: #ffffff;
+    padding-bottom: 20px;
+    font-weight: 400;
+    position: relative;
+  }
+  .pricing_CardsFlex .alignCenter .pricing_CardContainer {
+    text-align: center;
+  }
+  @media(max-width: 450px) {
+    .pricing_CardsFlex .pricing_CardContainer {
+      max-width: 300px !important;
+      min-width: 300px !important;
+    }
+  }
+  .pricing_CardsFlex .pricing_PlanTitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .pricing_CardsFlex .pricing_BelowTitle {
+    padding: 45px 20px 20px 20px;
+  }
+  .pricing_CardsFlex .pricing_IncludedFeatures {
+    margin-bottom: 30px;
+    list-style: none;
+    margin-left: 40px;
+    padding-left: 0;
+  }
+  .pricing_CardsFlex .pricing_IncludedFeatures li {
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 5px auto;
+    position: relative;
+    text-align: left;
+  }
+  .pricing_CardsFlex .pricing_IncludedFeatures li.lineThrough {
+    text-decoration: line-through;
+  }
+  .pricing_CardsFlex .pricing_IncludedFeatures li.include:before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='17' zoomAndPan='magnify' viewBox='0 0 810 809.999993' height='17' preserveAspectRatio='xMidYMid meet' version='1.0'%3E%3Cpath fill='%234ac263' d='M 774.292969 110.554688 L 769.28125 106.796875 C 752.992188 93.648438 732.945312 88.011719 714.152344 89.890625 C 694.105469 91.769531 675.941406 100.535156 662.785156 116.191406 L 493.644531 315.328125 L 393.410156 436.1875 L 320.117188 524.484375 L 270 471.257812 L 241.808594 441.824219 L 142.832031 338.5 C 128.421875 323.46875 109.628906 315.953125 89.582031 314.703125 C 70.789062 313.449219 50.742188 321.589844 36.335938 335.367188 L 31.324219 340.375 C 0.625 368.554688 0 417.402344 28.191406 447.460938 L 125.917969 550.160156 L 154.105469 580.84375 L 266.867188 699.199219 C 280.023438 712.351562 297.5625 721.117188 314.476562 721.742188 C 315.730469 721.742188 315.730469 721.742188 316.355469 721.742188 C 317.609375 721.742188 318.238281 721.742188 320.117188 721.742188 C 320.117188 721.742188 320.117188 721.742188 321.367188 721.742188 C 324.5 721.742188 327.007812 721.742188 330.765625 721.742188 C 350.8125 719.867188 368.980469 711.097656 382.132812 695.441406 L 550.023438 496.304688 L 615.800781 416.777344 L 783.6875 217.636719 C 810 185.699219 806.242188 138.109375 774.292969 110.554688 Z M 774.292969 110.554688 ' fill-opacity='1' fill-rule='nonzero'/%3E%3C/svg%3E");
+  }
+  .pricing_CardsFlex .pricing_IncludedFeatures li.exclude:before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='17' zoomAndPan='magnify' viewBox='0 0 810 809.999993' height='17' preserveAspectRatio='xMidYMid meet' version='1.0'%3E%3Cdefs%3E%3CclipPath id='725d5cd9f7'%3E%3Cpath d='M 72 76 L 737 76 L 737 739.984375 L 72 739.984375 Z M 72 76 ' clip-rule='nonzero'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23725d5cd9f7)'%3E%3Cpath fill='%23808080' d='M 498.6875 408.511719 L 717.089844 190.058594 C 742.992188 164.175781 742.992188 122.179688 717.089844 96.273438 C 691.191406 70.390625 649.246094 70.390625 623.347656 96.273438 L 404.945312 314.726562 L 186.542969 96.292969 C 160.664062 70.390625 118.675781 70.390625 92.777344 96.292969 C 66.898438 122.179688 66.898438 164.175781 92.777344 190.082031 L 311.179688 408.511719 L 92.246094 627.496094 C 66.367188 653.378906 66.367188 695.378906 92.246094 721.261719 C 105.171875 734.214844 122.167969 740.691406 139.117188 740.691406 C 156.066406 740.691406 173.0625 734.214844 186.011719 721.261719 L 404.921875 502.300781 L 623.304688 720.730469 C 636.253906 733.683594 653.226562 740.160156 670.175781 740.160156 C 687.125 740.160156 704.097656 733.683594 717.046875 720.730469 C 742.945312 694.847656 742.945312 652.851562 717.046875 626.964844 Z M 498.6875 408.511719 ' fill-opacity='1' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .pricing_CardsFlex .pricing_Price {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  .pricing_CardsFlex .pricing_Reccurence {
+    font-size: .9rem;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  .pricing_CardsFlex .pricing_RecommendedReccurence {
+    color: #000000;
+  }
+  .pricing_CardsFlex .pricing_Button {
+    border: 2px solid #000000;
+    border-radius: 0;
+    padding: 10px 0;
+    background: #000000;
+    color: #ffffff;
+    margin: 30px 0 0px 0px;
+    font-size: 1rem;
+    transition: all .2s linear;
+    text-align: center;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+  }
+  .pricing_CardsFlex .pricing_Button:hover {
+    filter: brightness(.9);
+  }
+  .pricing_CardsFlex .pricing_ListTitle {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 20px 0;
+  }
+  footer{
+    max-width: 1000px;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-color: blue;
+    margin-top: 2rem;
+}
