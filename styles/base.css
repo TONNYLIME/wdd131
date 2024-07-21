@@ -36,12 +36,7 @@ body {
 .navigation li {
 	flex: 1 1 auto; /* difference between auto and 100% flex-basis - turn on link borders to view */
 }
-.navigation a {
-	display: block;
-	color: #eee;
-	padding: 0.75rem;
-	text-decoration: none;
-	text-align: center;
+
 /* 	border: 1px dotted cyan; */
 }
 
@@ -74,6 +69,27 @@ main {
 	display: flex;
 	column-gap: 20rem;
 }
-
+.navigation {
+	list-style: none;
+	display: flex;
+	background-color: #333;
+	align-items: center;
+}
+.navigation li {
+	flex: 1  1 auto;
+}
+.navigation a {
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+/* 	border: 1px dotted cyan; */
+}
+.navigation a:hover {
+	font-weight: 600px;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
 
 
