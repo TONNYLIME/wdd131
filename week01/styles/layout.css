@@ -22,7 +22,7 @@ body {
 /* === HEADER === */
 header {
   /*display: flex;*/
-  display: flexbox;
+  display: block;
   justify-content: space-between;
   align-items: center;
   background-color: #004d7a;
