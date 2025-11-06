@@ -4,7 +4,7 @@ const areaOutput = document.querySelector('#area');
 let area = 0;
 const PI = 3.14159;
 
-const radius = 10;
+ radius = 10;
 area = PI * radius * radius;
 radiusOutput.textContent = radius;
 areaOutput.textContent = area;
