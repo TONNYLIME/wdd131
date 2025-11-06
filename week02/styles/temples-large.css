@@ -1,0 +1,47 @@
+/* Responsive styles */
+@media only screen and (min-width: 40em) {
+	h1 {
+        font-size: 2rem;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+}
+/* @media  (max-width: 768px){
+
+.hamburger {
+    display: block; 
+}
+
+header {
+    display: grid;
+}
+
+ul {
+    display: none; 
+    flex-direction: column;
+    background-color: #333;
+
+    top: 60px;
+    left: 0;
+}
+ul-show{
+    display: flex;
+}
+
+li {
+    text-align: center;
+    padding: 15px 0;
+}
+
+}*/
