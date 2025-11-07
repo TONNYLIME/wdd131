@@ -10,6 +10,9 @@
 	body{
 		margin: auto;
 	}
+	main {
+		margin-left: 7rem;
+	}
 	
 
 	h1 {
@@ -39,7 +42,7 @@
 }
 img {
     height: auto;
-	width: 27em;
+	width: 18em;
 
 
 }
