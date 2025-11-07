@@ -1,7 +1,20 @@
 /* Responsive styles */
 @media only screen and (min-width: 40em) {
+	header {
+		display: flex;
+		background-color: rgb(85, 4, 28);
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+	}
+	body{
+		margin: auto;
+	}
+	
+
 	h1 {
         font-size: 2rem;
+		border: #fff;
 	}
 	.navigation {
 		display: flex;
@@ -12,10 +25,40 @@
 	}
 	.navigation a {
 		text-align: center;
+		padding-top: 2rem;
 	}
 	#menu {
 		display: none;
 	}
+	figure {
+    background-color: #fff;
+    padding: .5rem;
+	
+
+    
+}
+img {
+    height: auto;
+	width: 27em;
+
+
+}
+figcaption {
+    font-size: small;
+
+}
+ div {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+	flex-wrap: wrap;
+
+ }
+
+ footer {
+    display: grid;
+    text-align: center;
+ }
 }
 /* @media  (max-width: 768px){
 
