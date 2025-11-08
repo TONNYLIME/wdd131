@@ -16,8 +16,7 @@ h1 {
     font-size: 1rem;
     padding: 1rem;
     color: #fff;
-    display: grid;
-    text-align: center;
+
 }
 /*mobile phone----------------------*/
 #menu {
@@ -90,7 +89,7 @@ figcaption {
     font-size: small;
 
 }
- main {
+main {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;

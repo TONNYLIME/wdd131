@@ -11,8 +11,13 @@
 		margin: auto;
 	}
 	main {
-		margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+	background-color: blue;
 	}
+
+
 	
 
 	h1 {
@@ -64,3 +69,5 @@ figcaption {
     text-align: center;
  }
 }
+
+
