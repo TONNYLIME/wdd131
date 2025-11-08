@@ -18,6 +18,7 @@
 	h1 {
         font-size: 2rem;
 		border: #fff;
+		text-align: center;
 	}
 	.navigation {
 		display: flex;
