@@ -27,6 +27,11 @@
 	}
 	.navigation {
 		display: flex;
+
+	}
+	nav {
+		display: flex;
+		
 	}
 	.navigation li {
 		display: block; /* change state in small view */
