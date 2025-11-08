@@ -17,6 +17,9 @@ h1 {
     padding: 1rem;
     color: #fff;
 }
+div {
+    margin-left: 7em;
+}
 /*mobile phone----------------------*/
 #menu {
     display: block;
