@@ -92,7 +92,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    margin-left: 1px;
+    margin-left: 0px;
 }
 
 footer {
