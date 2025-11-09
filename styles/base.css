@@ -49,12 +49,6 @@ body {
 .navigation li {
 	flex: 1 1 auto; /* difference between auto and 100% flex-basis - turn on link borders to view */
 }
-
-
-
-
-
-
 .card {
 	grid-column: auto;
 	/*column-gap: 10px;*/
