@@ -5,10 +5,7 @@
 		background-color: rgb(85, 4, 28);
 		justify-content: space-between;
 		flex-wrap: wrap;
-		
-	
-
-	}
+		}
 	body{
 		margin: 0;
 		padding: 0;
@@ -19,11 +16,7 @@
     text-align: center;
     
 	}
-
-
-	
-
-	h1 {
+    h1 {
         font-size: 2rem;
 		border: #fff;
 		text-align: center;
