@@ -41,7 +41,7 @@ div {
 .navigation {
     list-style: none;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1600px;
 
 }
 .navigation li {
