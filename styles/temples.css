@@ -7,10 +7,13 @@
 body {
     font-family: "Roboto",sans-serif;
     
+    
 }
 header {
     
 		background-color: rgb(85, 4, 28);
+        width: 100%;
+
 }
 h1 {
     font-size: 1rem;
@@ -89,6 +92,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+    margin-left: 5px;
 }
 
 footer {
