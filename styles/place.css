@@ -6,7 +6,7 @@
  
 body {
     font-family: "Roboto",sans-serif;
-    display: grid;
+    display: block;
     height: 100vh;
     grid-template-columns: 1fr auto;
     text-align: center;
