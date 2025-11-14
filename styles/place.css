@@ -15,11 +15,9 @@ body {
     }
 header {
     background-color: rgb(160, 5, 13);
-    
     }
 .place {
     width: 100%;
-
 }
 h1 {
     font-size: 1rem;
@@ -27,6 +25,7 @@ h1 {
     color: #fff;
     text-align: center;
 }
+
 div {
     margin: auto;
     height: 1rem;
