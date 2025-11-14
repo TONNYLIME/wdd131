@@ -15,6 +15,7 @@ body {
     }
 header {
     background-color: rgb(160, 5, 13);
+    text-align: center;
     }
 .place {
     width: 100%;
