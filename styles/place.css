@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Roboto",sans-serif;
+    display: block;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    }
+header {
+    background-color: rgb(160, 5, 13);
+    }
+.place {
+    width: 100%;
+
+}
+h1 {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+div {
+    margin: auto;
+    height: 1rem;
+    background-color: green;
+}
+footer {
+    background-color: rgb(160, 5, 13);
+    color: #fff;
+}
