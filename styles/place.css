@@ -14,9 +14,9 @@ body {
     margin-right: 30rem;*/
     }
 header {
-    display: flex;
+    
     background-color: rgb(160, 5, 13);
-    text-align: center;
+    
     }
 .place {
     width: 100%;
