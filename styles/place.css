@@ -10,8 +10,8 @@ body {
     height: 100vh;
     grid-template-columns: 1fr auto;
     text-align: center;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    /*margin-left: 30rem;
+    margin-right: 30rem;*/
     }
 header {
     background-color: rgb(160, 5, 13);
