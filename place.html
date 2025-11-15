@@ -18,7 +18,12 @@
     </header>
     <div></div>
     <main class="hero">
-        <img src="./images/mbabane.webp" alt="Mbabane capittal city of swaziland" class="place">
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 550px)">
+            <img src="./images/mbabane.webp" alt="Mbabane capittal city of swaziland" class="place"width="400" height="200">
+        </picture>
+        
         <section class="top-left">
             <h2>Data</h2>
             <p class="weather">Lable:      value</p>
