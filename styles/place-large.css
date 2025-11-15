@@ -1,4 +1,9 @@
 @media only screen and (min-width: 35em) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 	header {
 		display: flex;
 		background-color: rgb(85, 4, 28);
@@ -14,8 +19,6 @@
 	}
 	main {
     display: flex;
-    
-    
 	}
     h1 {
         font-size: 2rem;
@@ -26,8 +29,7 @@
     /* Background image styling */
 .hero {
     position: relative;
-    min-height: 100vh;
-    padding: 20px;
+    min-height: 20vh;
     background-image: url("./images/nairobi.jpg");
     background-size: cover;
     background-position: center;
@@ -38,8 +40,9 @@
 section {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(3px);
-    padding: 15px 20px;
-    max-width: 300px;
+    padding: 5px 5px;
+    width: 300px;
+	height: 300px;
 
 }
 
@@ -63,6 +66,9 @@ h2 {
 }
 section h2 {
     text-align: left;
+}
+.weather {
+	padding: .5rem;
 }
 
 
