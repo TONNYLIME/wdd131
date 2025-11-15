@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 30em) {
 	header {
 		display: flex;
 		background-color: rgb(85, 4, 28);
