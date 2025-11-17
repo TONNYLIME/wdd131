@@ -27,50 +27,44 @@
         margin: auto;
 	}
     /* Background image styling */
-.hero {
-    position: relative;
-    min-height: 20vh;
-    background-image: url("./images/nairobi.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+	.hero {
+   	 	position: relative;
+    	min-height: 20vh;
+    	background-image: url("./images/nairobi.jpg");
+    	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	}
 
 /* Section appearance */
-section {
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(3px);
-    padding: 5px 5px;
-    width: 300px;
-	height: 300px;
-
-}
+	section {
+    	background: rgba(255, 255, 255, 0.8);
+   		backdrop-filter: blur(3px);
+    	padding: 5px 5px;
+    	width: 300px;
+		height: 300px;
+		}
 
 /* Section positions */
-.top-left {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 10px;
-	
-}
+	.top-left {
+    	position: absolute;
+    	margin-top: 30px;
+    	margin-left: 10px;
+	}
 
-.bottom-right {
-    position: absolute;
-    bottom: 50px;
-    right: 30px;
-}
-h2 {
-	color: #fff;
-	background-color: green;
-	
-}
-section h2 {
-    text-align: left;
-}
-.weather {
-	padding: .5rem;
-}
-
-
-    
+	.bottom-right {
+    	position: absolute;
+    	bottom: 50px;
+   		 right: 30px;
+	}
+	h2 {
+		color: #fff;
+		background-color: green;	
+	}
+	section h2 {
+   		 text-align: left;
+	}
+	.weather {
+		padding: .5rem;
+	}    
 }
