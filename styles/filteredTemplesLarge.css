@@ -46,17 +46,17 @@
 	}
 	img {
     	height: auto;
-		width: 15rem;
+		width: 25rem;
 	}
 	figcaption {
     	font-size: small;
 	}
  	div {
-    	display: flex;
+    	display: grid;
     	grid-template-columns: 1fr 1fr 1fr;
     	text-align: center;
 		flex-wrap: wrap;
-		margin-left: 7em;
+		
 	}
 
  	footer {

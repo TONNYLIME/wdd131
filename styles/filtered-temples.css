@@ -6,6 +6,10 @@
  
 body {
     font-family: "Roboto",sans-serif;
+    display: block;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    text-align: center;
     }
 header {
     background-color: rgb(85, 4, 28);
@@ -71,11 +75,12 @@ div {
 
 figure {
     background-color: #fff;
-    padding: .5rem;   
+    padding: .5rem;
+    
 }
 img {
     height: auto;
-    width: 30em;
+    width: 25em;
     display: flex;
     flex-wrap: wrap;
     }
