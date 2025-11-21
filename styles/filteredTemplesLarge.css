@@ -1,0 +1,66 @@
+/* Responsive styles */
+@media only screen and (min-width: 40em) {
+	header {
+		display: flex;
+		background-color: rgb(85, 4, 28);
+		justify-content: space-between;
+		flex-wrap: wrap;
+		}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+	}
+    h1 {
+        font-size: 2rem;
+		border: #fff;
+		text-align: center;
+	}
+	.navigation {
+		display: flex;
+
+	}
+	nav {
+		display: flex;
+		
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+		padding-top: 2rem;
+	}
+	#menu {
+		display: none;
+	}
+	figure {
+    background-color: #fff;
+    padding: .5rem;
+	}
+	img {
+    	height: auto;
+		width: 15rem;
+	}
+	figcaption {
+    	font-size: small;
+	}
+ 	div {
+    	display: flex;
+    	grid-template-columns: 1fr 1fr 1fr;
+    	text-align: center;
+		flex-wrap: wrap;
+		margin-left: 7em;
+	}
+
+ 	footer {
+    	display: grid;
+    	text-align: center;
+ 	}
+}

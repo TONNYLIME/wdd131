@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Roboto",sans-serif;
+    }
+header {
+    background-color: rgb(85, 4, 28);
+    }
+h1 {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+div {
+    margin: auto;
+}
+/*mobile phone----------------------*/
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.1rem 0.75rem;
+    color: #fff;
+    position: absolute;
+    top: .1rem;
+    right: 1rem;
+}
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    max-width: 760px;
+
+}
+.navigation li {
+    display: none;
+
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.5s;
+    
+}
+.navigation a:hover,
+.navigation a:active{
+    color: #fff;
+    background-color: #000;
+}
+ 
+.show li {
+    display: block;
+    
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+figure {
+    background-color: #fff;
+    padding: .5rem;
+    
+}
+img {
+    height: auto;
+    width: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    }
+figcaption {
+    font-size: small;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    background-color: rgb(85, 4, 28);
+    color: #fff;
+}
