@@ -81,7 +81,7 @@ figure {
 img {
     height: auto;
     width: 15em;
-    display: block;
+    display: grid;
     flex-wrap: wrap;
     }
 figcaption {
