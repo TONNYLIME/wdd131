@@ -95,7 +95,7 @@ figcaption {
 } */
 
 footer {
-    display: grid;
+    display: block;
     text-align: center;
     background-color: rgb(85, 4, 28);
     color: #fff;
