@@ -87,12 +87,12 @@ img {
 figcaption {
     font-size: small;
 }
-main {
+/* main { 
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
     
-}
+} */
 
 footer {
     display: grid;
