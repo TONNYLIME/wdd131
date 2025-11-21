@@ -80,7 +80,7 @@ figure {
 }
 img {
     height: auto;
-    width: 15em;
+    width: 25em;
     display: grid;
     flex-wrap: wrap;
     }
