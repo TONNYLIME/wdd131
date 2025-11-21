@@ -71,8 +71,7 @@ div {
 
 figure {
     background-color: #fff;
-    padding: .5rem;
-    
+    padding: .5rem;   
 }
 img {
     height: auto;
