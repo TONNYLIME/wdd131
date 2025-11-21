@@ -76,7 +76,7 @@ figure {
 }
 img {
     height: auto;
-    width: 15em;
+    width: 10em;
     display: flex;
     flex-wrap: wrap;
     }
