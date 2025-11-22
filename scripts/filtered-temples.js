@@ -68,16 +68,16 @@ const temples = [
   {
     templeName: "Durban South Africa",
     location: "Durban, South Africa",
-    dedicated: "16 February 2020",
-    area: 1845,
+    dedicated: "2020 February 16",
+    area: 19860,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/durban-south-africa-temple/durban-south-africa-temple-7923-thumb.jpg"
   },
   {
     templeName: "Nairobi Kenya",
     location: "Nairobi city, Kenya",
-    dedicated: "18 May 2025",
-    area: 1846,
+    dedicated: "2025 May 18",
+    area: 19870,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/nairobi-kenya-temple/nairobi-kenya-temple-56575-thumb.jpg"
     },
@@ -85,8 +85,8 @@ const temples = [
   { 
     templeName: "Manilla Philippines",
     location: "Manilla, Philippines",
-    dedicated: "25-27 September 1984",
-    area: 2479,
+    dedicated: "1984 September 25-27",
+    area: 22683,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/manila-philippines-temple/manila-philippines-temple-48890-thumb.jpg"
     }

@@ -1,6 +1,19 @@
+function getYear(dateString) {
+    const yy = parseInt(dateString.split('')[0]);
+
+    if (yy < 30) {
+        return 2000 + yy;
+    } else {
+        return 1900 + yy
+    }
+}
 const container = document.getElementById("temple-cards");
+// function  creating temple cards
+function displayTemples(filteredTemples) {
+    container.innerHTML = "";
+
 // looping thru each temple
-temples.forEach(
+filteredTemples.forEach(
     temple => {
     //card container
      const card = document.createElement ("section");
@@ -41,3 +54,38 @@ temples.forEach(
     container.appendChild(card);
     }
 );
+}
+// filter functions
+
+// home show all temples
+document.getElementById('home').addEventListener ("click", () =>{
+    displayTemples(temples);
+});
+
+//old built b4 1900
+document.getElementById('old').addEventListener('click', () => {
+    const oldTemples = temples.filter(t => getYear(t.dedicated) < 1900);
+    
+    displayTemples(oldTemples);
+}
+);
+
+document.getElementById('new').addEventListener('click', () => {
+    const newTemples = temples.filter(t => getYear(t.dedicated) > 2000);
+    displayTemples(newTemples);
+}
+);
+
+document.getElementById('large').addEventListener('click', () => {
+    const largeTemples = temples.filter(t => t.area > 90000);
+        displayTemples(largeTemples);
+    });
+
+
+document.getElementById('small').addEventListener('click', () => {
+    const smallTemples =  temples.filter(t => t.area < 10000);
+        displayTemples(smallTemples);
+    });
+
+
+displayTemples(temples);
