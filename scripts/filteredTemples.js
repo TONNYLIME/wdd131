@@ -29,11 +29,8 @@ function displayTemples(filteredTemples) {
 
         console.log("Image:", temple.imageUrl); // DEBUG
 
-        img.src = temple.imageUrl.startsWith("./")
-                  ? temple.imageUrl
-                  : "./images/" + temple.imageUrl;
-
-        img.alt = temple.templeName;
+        img.src = temple.imageUrl; 
+        img.alt = temple.name;
         img.loading = "lazy";
 
         card.appendChild(name);
