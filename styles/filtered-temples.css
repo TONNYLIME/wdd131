@@ -86,7 +86,10 @@ img {
     }
 #temple-cards {
     display: grid;
-    
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
 }
 
 figcaption {
