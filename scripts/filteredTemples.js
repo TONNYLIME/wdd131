@@ -41,6 +41,7 @@ filteredTemples.forEach(
     img.src = temple.imageUrl; 
     img.alt = temple.name;
     img.loading = "lazy";
+    console.log("Image:", temple.imageUrl);
 
     // append everything to the card
     card.appendChild(name);
