@@ -8,7 +8,7 @@ body {
     font-family: "Roboto",sans-serif;
     display: block;
     height: 100vh;
-    grid-template-columns: 1fr auto;
+    template-columns: 1fr auto;
     text-align: center;
     }
 header {
@@ -79,11 +79,19 @@ figure {
     
 }
 img {
+    width: 100%;
+    max-width: 15rem;
     height: auto;
-    width: 15em;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     }
+#temple-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    justify-items: center;
+}
+
 figcaption {
     font-size: small;
 }
