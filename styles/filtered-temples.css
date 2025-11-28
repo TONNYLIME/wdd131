@@ -8,7 +8,7 @@ body {
     font-family: "Roboto",sans-serif;
     display: block;
     height: 100vh;
-    template-columns: 1fr auto;
+    grid-template-columns: 1fr auto;
     text-align: center;
     }
 header {
