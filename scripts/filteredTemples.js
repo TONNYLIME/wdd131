@@ -38,8 +38,8 @@ filteredTemples.forEach(
 
     // image with lazing loading
     const img = document.createElement("img");
-    img.src = temple.imageUrl;
-    img.alt = temple.templeName;
+    img.src = temple.imageUrl; 
+    img.alt = temple.name;
     img.loading = "lazy";
 
     // append everything to the card
