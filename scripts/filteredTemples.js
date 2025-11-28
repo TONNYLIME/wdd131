@@ -65,4 +65,4 @@ document.getElementById('small').addEventListener('click', () => {
     displayTemples(temples.filter(t => t.area < 10000));
 });
 
-displayTemples(temples);
+displayTemples(temple);
