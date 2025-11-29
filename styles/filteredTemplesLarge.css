@@ -30,7 +30,7 @@
 		
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: grid; /* change state in small view */
 		flex: 1 1 100%;
 	}
 	.navigation a {
