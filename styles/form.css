@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+    display: block;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    text-align: center;
+    /*margin-left: 30rem;
+    margin-right: 30rem;*/
+    max-width: 25em;
+    margin: 0 auto;
+    
+    }
+main {
+    background-color: blueviolet;
+    margin-top: 0.5rem;
+}
+header, footer {
+    
+    background-color: rgb(160, 5, 13);
+    margin-top: 0.5rem;
+    }
+
+.form-example {
+  display: table;
+  margin-left: 0.5rem;
+}
+
+div.form-example {
+  display: table-caption;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+.dropdown-input {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-input input {
+  padding-right: 30px; /* space for the icon */
+}
+
+.dropdown-input::after {
+  content: "▼"; /* dropdown arrow */
+  font-size: 12px;
+  color: #555;
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  transform: translateY(-50%);
+  pointer-events: none; /* so clicking doesn’t affect input */
+}
+
+/* STAR GROUP STYLE */
+.star-group {
+  display: flex;
+  gap: 0.5px; /* spacing between sets of stars */
+  margin-top: 5px;
+}
+
+
+.star-group label {
+  font-size: 22px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.star-group input:checked + label {
+  color: gold;
+}
+
+.star-group label:hover,
+.star-group label:hover ~ label {
+  color: gold;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals-Form.html - Tonny Lime</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/formlarge.css">
+    <script src="./scripts/form.js" defer></script>
+    <script src="./scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+            <form action="" method="get" class="form-example">
+               <div class="form-example">
+                    <label for="name">Product name: </label>
+                    <div class="dropdown-input">
+                    <input type="text" id="product" name="product" placeholder="Choose a product....">
+                    </div>
+               </div>
+               <div class="form-example">
+                    <label for="rating">Overall rating: </label>
+                    <div class="star-group">
+                          <label for="star1">★</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                        
+                            <label for="star2">★★</label>
+                                <input type="radio" id="star2" name="rating" value="2">
+                        
+                            <label for="star3">★★★</label>
+                                <input type="radio" id="star3" name="rating" value="3">
+                        
+                            <label for="star4">★★★★</label>
+                                <input type="radio" id="star4" name="rating" value="4">
+                        
+                            <label for="star5">★★★★★</label>
+                                <input type="radio" id="star5" name="rating" value="5">
+                    </div>
+                </div>
+                <div class="form-example">
+                    <input type="submit" value="Subscribe!" />
+                </div>
+            </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>🌹Tonny Lumwaji Lime🌹Kenya</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
