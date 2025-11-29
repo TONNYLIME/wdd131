@@ -9,6 +9,7 @@
 	body{
 		margin: 0;
 		padding: 0;
+		box-sizing: border-box;
 	}
 	
     h1 {
@@ -17,7 +18,7 @@
 		text-align: center;
 	}
 	.navigation {
-		display: grid;
+		display: flex
 
 	}
 	nav {
@@ -48,24 +49,23 @@
     	font-size: small;
 	}
  	div {
-    	display: grid;
+    	display: inline-grid;
+		grid-template-columns: 1fr 1fr 1fr;
     	text-align: center;
 		
 	}
 	.temple-card {
-	display: block;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
     max-width: 400px;
 
 	}
-	.temple-cards {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+
+		
 	}
  	footer {
     	display: grid;
     	text-align: center;
  	}
-}
+
