@@ -10,12 +10,7 @@
 		margin: 0;
 		padding: 0;
 	}
-	main {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    
-	}
+	
     h1 {
         font-size: 2rem;
 		border: #fff;
@@ -53,12 +48,13 @@
     	font-size: small;
 	}
  	div {
-    	display: block;
+    	display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
     	text-align: center;
 		
 	}
 	.temple-card {
+	display: block;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
