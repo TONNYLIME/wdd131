@@ -103,7 +103,7 @@ main {
 .temple-card {
     border: 1px solid #ccc;
     margin: 1rem;
-    max-width: 400px;
+    max-width: 60px;
 }
 footer {
     display: grid;
