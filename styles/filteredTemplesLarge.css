@@ -59,6 +59,7 @@
     padding: 1rem;
     margin: 1rem;
     max-width: 100%;
+	background-color: blue;
 	grid-template-columns: 1fr 1fr 1fr;
 	}
 
