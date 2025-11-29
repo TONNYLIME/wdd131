@@ -48,11 +48,11 @@
 	figcaption {
     	font-size: small;
 	}
+	
  	div {
-    	display: inline-grid;
-		grid-template-columns: 1fr 1fr 1fr;
+    	display: block;
     	text-align: center;
-		
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	.temple-card {
 	display: block;
