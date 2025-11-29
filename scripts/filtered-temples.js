@@ -91,3 +91,51 @@ const temples = [
     "https://churchofjesuschristtemples.org/assets/img/temples/manila-philippines-temple/manila-philippines-temple-48890-thumb.jpg"
     }
 ];
+const container = document.querySelector("#temple-cards");
+
+function displayTemples(filteredList) {
+    container.innerHTML = ""; // Clear previous content
+
+    filteredList.forEach(t => {
+        container.innerHTML += `
+            <div class="temple-card">
+                <img src="${t.imageUrl}" alt="${t.templeName}">
+                <div class="info">
+                    <h3>${t.templeName}</h3>
+                    <p><strong>Location:</strong> ${t.location}</p>
+                    <p><strong>Dedicated:</strong> ${t.dedicated}</p>
+                    <p><strong>Area:</strong> ${t.area} sq ft</p>
+                </div>
+            </div>
+        `;
+    });
+}
+
+// Display all by default
+displayTemples(temples);
+
+
+document.getElementById("home").addEventListener("click", () => {
+    displayTemples(temples);
+});
+
+document.getElementById("old").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(t => parseInt(t.dedicated.substring(0, 4)) < 1900)
+    );
+});
+
+document.getElementById("new").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(t => parseInt(t.dedicated.substring(0, 4)) > 2000)
+    );
+});
+
+document.getElementById("large").addEventListener("click", () => {
+    displayTemples(temples.filter(t => t.area > 90000));
+});
+
+document.getElementById("small").addEventListener("click", () => {
+    displayTemples(temples.filter(t => t.area <= 10000));
+});
+
