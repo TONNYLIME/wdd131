@@ -49,7 +49,6 @@
 	}
  	div {
     	display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
     	text-align: center;
 		
 	}
@@ -60,6 +59,10 @@
     margin: 1rem;
     max-width: 400px;
 
+	}
+	.temple-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
  	footer {
     	display: grid;
