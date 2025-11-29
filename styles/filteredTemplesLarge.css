@@ -40,8 +40,8 @@
     padding: .5rem;
 	}
 	img {
-    	height: 15rem;
-		width: 20rem;
+    	height: 10rem;
+		width: 10rem;
 		
 	}
 	figcaption {
@@ -54,16 +54,13 @@
 		
 	}
 	.temple-card {
-	display: grid;
+	display: block;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
     max-width: 100%;
 	
-	grid-template-columns: 1fr 1fr 1fr;
 	}
-
-
  	footer {
     	display: grid;
     	text-align: center;
