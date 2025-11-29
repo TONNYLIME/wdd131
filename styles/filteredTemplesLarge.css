@@ -17,11 +17,11 @@
 		text-align: center;
 	}
 	.navigation {
-		display: flex;
+		display: grid;
 
 	}
 	nav {
-		display: flex;
+		display: grid;
 		
 	}
 	.navigation li {
