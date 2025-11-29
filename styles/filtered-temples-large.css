@@ -42,15 +42,14 @@
 	}
 	img {
     	height: 15rem;
-		width: 25rem;
-		
+		width: 25rem;	
 	}
 	figcaption {
     	font-size: small;
 	}
 	
  	div {
-    	display: block;
+    	display: grid;
     	text-align: center;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
