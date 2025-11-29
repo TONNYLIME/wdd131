@@ -55,6 +55,7 @@
 		
 	}
 	.temple-card {
+	display: block;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
