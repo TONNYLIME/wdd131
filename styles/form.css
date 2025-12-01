@@ -1,89 +1,78 @@
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+:root {
+    --primary-color:#a01d1d; /* used for header and footer*/
+    --secondary-color:#f7d488;
+    --text-color:#333;
+    --background-color: #ada6ab; /* for form backgrround*/
+}
+header,footer {
+  background-color: var(--primary-color) ;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+
+}
+header {
+  margin-bottom: 0.5rem;
+}
 body {
-    font-family: "Roboto",sans-serif;
-    display: block;
-    height: 100vh;
-    grid-template-columns: 1fr auto;
-    text-align: center;
-    /*margin-left: 30rem;
-    margin-right: 30rem;*/
-    max-width: 25em;
+    font-family: Arial, sans-serif;
     margin: 0 auto;
-    
-    }
-main {
-    background-color: blueviolet;
-    margin-top: 0.5rem;
-}
-header, footer {
-    
-    background-color: rgb(160, 5, 13);
-    margin-top: 0.5rem;
-    }
+    padding: 20px;
+    max-width: 700px;
+    background: #fff;
+    color: #222;
 
-.form-nov {
-  display: table;
-  margin-left: 0.5rem;
 }
 
-div.form-nov {
-  display: table-caption;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--background-color);
+    padding: 22px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-label,
-input {
-  display: table-cell;
-  margin-bottom: 10px;
+label, legend {
+    font-weight: bold;
 }
-
-label {
-  padding-right: 10px;
+input[type="checkbox"] {
+  display: block;
 }
-.dropdown-input {
-  position: relative;
-  display: inline-block;
+input, select, textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    font-size: 1rem;
 }
-
-.dropdown-input input {
-  padding-right: 30px; /* space for the icon */
-}
-
-.dropdown-input::after {
-  content: "▼"; /* dropdown arrow */
-  font-size: 12px;
-  color: #555;
-  position: absolute;
-  right: 10px;
-  top: 30%;
-  transform: translateY(-50%);
-  pointer-events: none; /* so clicking doesn’t affect input */
-}
-
-/* STAR GROUP STYLE */
-.star-group {
-  display: flex;
-  gap: 0.5px; /* spacing between sets of stars */
-  margin-top: 5px;
+.optional-text {
+    color: #1e90ff; /* or any blue you prefer */
+    font-weight: normal; /* keeps only the text styled, not the whole label */
 }
 
 
-.star-group label {
-  font-size: 22px;
-  color: #ccc;
-  cursor: pointer;
+input[type="submit"] {
+    background: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.star-group input:checked + label {
-  color: gold;
+input[type="submit"]:hover {
+    background: #004f9c;
 }
 
-.star-group label:hover,
-.star-group label:hover ~ label {
-  color: gold;
+.rating label {
+    margin-right: 10px;
+    cursor: pointer;
 }

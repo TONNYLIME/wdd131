@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals-Form.html - Tonny Lime</title>
+    <title>WDD 131 - Dynamic Web Fundamentals-Product Review Form - Tonny Lime</title>
     <link rel="stylesheet" href="./styles/form.css">
     <link rel="stylesheet" href="./styles/formlarge.css">
     <script src="./scripts/form.js" defer></script>
@@ -14,37 +14,71 @@
         <h1>Product Review</h1>
     </header>
     <main>
-            <form action="" method="get" class="form-nov">
-               <div class="form-nov">
-                    <label for="name">Product name: </label>
-                    <div class="dropdown-input">
-                    <input type="text" id="product" name="product" placeholder="Choose a product....">
-                    </div>
-               </div>
-               <div class="form-nov">
-                    <label for="rating">Overall rating: </label>
-                    <div class="star-group">
-                          <label for="star1">★</label>
-                            <input type="radio" id="star1" name="rating" value="1">
-                        
-                            <label for="star2">★★</label>
-                                <input type="radio" id="star2" name="rating" value="2">
-                        
-                            <label for="star3">★★★</label>
-                                <input type="radio" id="star3" name="rating" value="3">
-                        
-                            <label for="star4">★★★★</label>
-                                <input type="radio" id="star4" name="rating" value="4">
-                        
-                            <label for="star5">★★★★★</label>
-                                <input type="radio" id="star5" name="rating" value="5">
-                    </div>
-                </div>
-                <div class="form-nov">
-                    <input type="submit" value="Post Review" />
-                </div>
-            </form>
+        <form action="review.html" method="get" class="form-nov">
+                <label for="product">Product Name</label>
+               <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                    <!-- form.js Inserts Products Here -->
+                </select>
+
+                <!-- OVERALL RATING -->
+        <fieldset class="rating">
+            <legend>Overall Rating</legend>
+
+            <!-- Same name so only one can be selected -->
+            <input type="radio" id="rate1" name="rating" value="1" required>
+            <label for="rate1">☆</label>
+
+            <input type="radio" id="rate2" name="rating" value="2">
+            <label for="rate2">☆☆</label>
+
+            <input type="radio" id="rate3" name="rating" value="3">
+            <label for="rate3">☆☆☆</label>
+
+            <input type="radio" id="rate4" name="rating" value="4">
+            <label for="rate4">☆☆☆☆</label>
+
+            <input type="radio" id="rate5" name="rating" value="5">
+            <label for="rate5">☆☆☆☆☆</label>
+        </fieldset>
+
+        <!-- DATE OF INSTALLATION -->
+        <label for="install-date">Date of Installation</label>
+        <input type="date" id="install-date" name="install" required>
+
+        <!-- USEFUL FEATURES -->
+        <fieldset >
+            <legend>Useful Features (Check all that apply)</legend>
+            
+            <label for="feature1">Easy Installation</label>
+            <input type="checkbox" id="feature1" name="feature" value="easy-install">
+
+            
+            <label for="feature2">Durability</label>
+            <input type="checkbox" id="feature2" name="features" value="durable">
+
+            
+            <label for="feature3">High Performance</label>
+            <input type="checkbox" id="feature3" name="features" value="performance">
+
+            
+            <label for="feature4">Good Design</label>
+            <input type="checkbox" id="feature4" name="features" value="design">
+        </fieldset>
+
+        <!-- WRITTEN REVIEW -->
+        <label for="review">Written Review <span class="optional-text">(optional)</span></label>
+        <textarea id="review" name="review" rows="4"></textarea>
+
+        <!-- USER NAME -->
+        <label for="username">Your Name <span class="optional-text">(optional)</span></label>
+        <input type="text" id="username" name="username">
+
+        <!-- SUBMIT -->
+        <input type="submit" value="Submit Review">
+
     </main>
+    <form action=""></form>
     <footer>
         <p>©<span id="currentyear"></span>🌹Tonny Lumwaji Lime🌹Kenya</p>
         <p><span id="lastModified"></span></p>
