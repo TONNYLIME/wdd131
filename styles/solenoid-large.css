@@ -1,0 +1,94 @@
+@media only screen and (min-width: 40em) {
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / 300px 1fr auto;
+}
+
+header {
+  background: lightpink;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: space-between; /* pushes nav to far right */
+  align-items: center;
+  padding: 10px 20px;
+
+}
+nav {
+    
+    width: 50%;
+    /*background: #1d72cc;        /* deep Subaru-style color */
+    padding: 25px 5px;
+    margin-right: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;  /* pushes items to the right */
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    background-color:  yellow;
+    border-radius: 3px;
+}
+
+/* NAV LINKS */
+nav a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 3rem;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+    color: #00a8e8;             /* Subaru blue highlight */
+    text-shadow: 0 0 8px #00a8e8;
+}
+
+nav li {
+    float: right;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+div {
+    text-align: center;
+}
+
+.left-sidebar {
+  background: lightblue;
+  grid-column: 1 / 2;
+}
+
+main {
+  background: coral;
+  grid-column: 2 / 3;
+  
+}
+
+.right-sidebar {
+  background: yellow;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+}

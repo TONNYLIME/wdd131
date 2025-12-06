@@ -1,0 +1,60 @@
+@media (min-width: 768px) {
+
+    /* NAVIGATION horizontal on large screens */
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    /* Wider main content area */
+    main {
+        max-width: 1100px;
+        margin: auto;
+        padding: 2rem;
+    }
+
+    /* Hero side-by-side (optional) */
+    .hero {
+        text-align: left;
+        padding: 2rem;
+    }
+
+    /* Solenoid sections in grid */
+    .solenoid-section {
+        padding: 2rem;
+    }
+
+    /* Two-column layout for features + symptoms */
+    .features ul,
+    .symptoms ul {
+        columns: 2;
+        column-gap: 2rem;
+    }
+
+    /* Contact form larger */
+    form {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    /* Table improves width */
+    table {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Larger screens get more spacing */
+    main {
+        max-width: 1200px;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    img {
+        max-width: 700px;
+    }
+}

@@ -1,0 +1,233 @@
+/* ------------------------------
+   RESET & BASE STYLES
+------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #222;
+    padding-bottom: 2rem;
+}
+
+/* ------------------------------
+   HEADER
+------------------------------ */
+header {
+    background-color: #2a6f97;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-title img,
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+/* ------------------------------
+   NAVIGATION
+------------------------------ */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    background: #214f70;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background: #f7d488;
+    color: #222;
+    font-weight: bold;
+}
+
+/* ------------------------------
+   MAIN CONTENT
+------------------------------ */
+main {
+    padding: 1.2rem;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* ------------------------------
+   HERO SECTION
+------------------------------ */
+.hero {
+    background: #d9eaf7;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* ------------------------------
+   FEATURES / SOLENOID SECTIONS
+------------------------------ */
+section {
+    margin-bottom: 2rem;
+}
+
+.features ul,
+.solenoid-section ul,
+.symptoms ul {
+    list-style: square inside;
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Section card style */
+.solenoid-section,
+.features,
+.contact-info,
+.form-section {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* ------------------------------
+   IMAGES
+------------------------------ */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+}
+
+/* ------------------------------
+   TABLE STYLING
+------------------------------ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background: #2a6f97;
+    color: white;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+    padding: 0.8rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f4f7;
+}
+
+/* ------------------------------
+   CONTACT FORM
+------------------------------ */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 0.8rem;
+    background: #2a6f97;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #214f70;
+}
+
+/* ------------------------------
+   CONFIRMATION BOX
+------------------------------ */
+.confirmation {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    display: none;
+}
+
+.confirmation.success {
+    display: block;
+    background: #d8f5d1;
+    border-left: 5px solid #1e7d32;
+    color: #155d27;
+}
+
+.confirmation.error {
+    display: block;
+    background: #ffd4d4;
+    border-left: 5px solid #b71c1c;
+    color: #7f0000;
+}
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+footer {
+    margin-top: 2rem;
+    background: #2a6f97;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
