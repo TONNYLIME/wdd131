@@ -26,7 +26,7 @@ header {
 }
 
 .logo-title {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     gap: 12px;
@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav a {
-    background: #214f70;
+    background: #b71c1c;
     color: white;
     padding: 0.7rem 1rem;
     border-radius: 5px;
