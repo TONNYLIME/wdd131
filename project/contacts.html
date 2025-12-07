@@ -38,7 +38,7 @@
         </section>
         <section class="form-section">
             <h1>Contact form</h1>
-            <form method="post" id="contact-form" action="">
+            <form method="post" id="contact-form" action="https://formsubmit.co/Tonnylumwaji@yahoo.com">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" required placeholder="Enter your name">
                 <label for="email">Email Address:</label>
@@ -59,6 +59,11 @@
                 <label for="messages">Messages:</label>
                 <textarea name="" id="messages" rows="5" required placeholder="Describe your
                 issue or concern"></textarea>
+                 <!-- After submitting, go to a thank-you page -->
+                <input  type="hidden" name="_next" value="thankyou.html">
+
+                <!-- Disable FormSubmit captcha -->
+                <input type="hidden" name="_captcha" value="false">
                 <button type="submit" id="submitBtn">Send Message</button>
             </form>
             <div id="confirmation" class="confirmation"></div>

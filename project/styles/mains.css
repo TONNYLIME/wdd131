@@ -67,6 +67,7 @@ nav a.active {
     font-weight: bold;
 }
 
+
 /* ------------------------------
    MAIN CONTENT
 ------------------------------ */
@@ -231,3 +232,5 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+New Contact Form Message:
+{{BodyPlain}}
